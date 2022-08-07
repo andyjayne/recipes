@@ -68,7 +68,8 @@ def test_ingredient_parser():
             1.0, None, 'LoremipsumdolorsitametconsetetursadipscingelitrseddiamnonumyeirmodtemporinviduntutlLoremipsumdolorsitametconsetetursadipscingeli',
             'LoremipsumdolorsitametconsetetursadipscingelitrseddiamnonumyeirmodtemporinviduntutlLoremipsumdolorsitametconsetetursadipscingelitrseddiamnonumyeirmodtemporinviduntutl'),
         "砂糖 50g": (50, "g", "砂糖", ""),
-        "卵 4個": (4, "個", "卵", "")
+        "卵 4個": (4, "個", "卵", ""),
+        "●重曹 3g": (3, "g", "重曹", "")
 
     }
     # for German you could say that if an ingredient does not have
